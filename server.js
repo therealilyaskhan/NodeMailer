@@ -51,4 +51,8 @@ app.post("/", (req, res) => {
     });
 });
 
+app.get('/', (req, res)=> {
+    res.send('Up and running');
+});
+
 app.listen(port, () => console.log(`server at https://localhost:${port}`));
