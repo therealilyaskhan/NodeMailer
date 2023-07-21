@@ -28,8 +28,8 @@ app.post("/", (req, res) => {
         port: 465,
         secure: true,
         auth: {
-            user: 'miknodemailer@gmail.com',
-            pass: 'mgdcmywoyaoptydw'
+            user: 'mikemailtransporter@gmail.com',
+            pass: 'jwugxcqbnjzgqxik'
         }
     });
 
