@@ -46,7 +46,7 @@ app.post("/", (req, res) => {
             res.send(error);
         } else {
             console.log('Email sent to: ' + info.response);
-            res.send('Success');
+            res.status(200).json({ message: 'ok' });
         }
     });
 });
