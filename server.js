@@ -17,7 +17,7 @@ app.use(express.json());
 // For the cors config below, when in production, "http://localhost:5000" should be "http://foo.com"
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://ilyas-portfolio.vercel.app/",
   })
 );
 
